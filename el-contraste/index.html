@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f4e9">
+<meta name="description" content="El Contraste: dos relatos sobre la economía española. Dos selecciones de datos y una pregunta: ¿qué se queda fuera?">
+<title>El Contraste | Dos relatos, un país</title>
+<style>
+:root{--paper:#f9f7ef;--ink:#25241e;--muted:#656459;--rule:#b9b3a4;--accent:#91372b;--other:#1c5950}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#ebe6d9;font-family:Georgia,'Times New Roman',serif;color:var(--ink);line-height:1.65}a{color:inherit;text-decoration-color:var(--accent);text-underline-offset:4px}a:hover{color:var(--accent)}
+.sheet{max-width:1100px;margin:26px auto;background:var(--paper);padding:0 44px 38px;box-shadow:0 14px 45px #211b1030}
+.overline{display:flex;justify-content:space-between;gap:10px;padding:16px 0;border-bottom:1px solid var(--ink);font:700 11px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.mast{text-align:center;border-bottom:4px double var(--ink);padding:7px 0}.mast h1{font-size:clamp(54px,9vw,104px);line-height:1;letter-spacing:-.085em;text-transform:uppercase;margin:8px 0}.mast p{font:12px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;margin:0 0 12px}
+nav{display:flex;justify-content:center;gap:28px;border-bottom:1px solid var(--ink);padding:11px;font:700 12px Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em}nav a{text-decoration:none}
+.eyebrow{font:700 12px Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--accent)}
+.leadhead{text-align:center;padding:42px 0 36px;border-bottom:1px solid var(--rule)}.leadhead h2{font-size:clamp(42px,6vw,74px);line-height:1.05;letter-spacing:-.045em;max-width:860px;margin:12px auto}.leadhead p{font-size:21px;max-width:800px;color:#525044;margin:0 auto 20px}
+.notice{display:inline-block;background:#e8dfcb;border:1px solid #d3c5ad;font:700 11px/1.6 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;padding:10px}
+.twocards{display:grid;grid-template-columns:1fr 1fr;gap:26px;padding:30px 0}.teaser{border-top:5px solid var(--other);padding-top:13px}.teaser:nth-child(2){border-color:var(--accent)}.teaser h3{font-size:36px;letter-spacing:-.025em;line-height:1.12;margin:11px 0}.teaser p{margin:0 0 14px;color:var(--muted)}.teaser a{font:700 12px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);border-block:3px double var(--ink);margin:2px 0 37px}.metric{text-align:center;padding:17px 7px;border-right:1px solid var(--rule)}.metric:last-child{border:0}.metric strong{display:block;font-size:32px;line-height:1.2}.metric span{font:11px/1.4 Arial,sans-serif;color:var(--muted);text-transform:uppercase}
+article{padding:26px 0 34px;border-bottom:3px double var(--ink);scroll-margin-top:22px}.articlehead{text-align:center;max-width:830px;margin:auto}.articlehead h2{font-size:clamp(38px,5vw,60px);line-height:1.05;letter-spacing:-.04em;margin:11px 0}.deck{font-size:21px;color:#5b594f;line-height:1.4;margin:0 0 14px}.byline{font:11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.copy{columns:2;column-gap:38px;column-rule:1px solid var(--rule);margin:28px 0 0;text-align:justify}.copy h3{break-after:avoid;font-size:24px;line-height:1.25;margin:20px 0 9px;text-align:left}.copy h3:first-child{margin-top:0}.copy p{margin:0 0 1em;break-inside:avoid}.copy .first:first-letter{float:left;font-size:70px;line-height:.8;padding:7px 9px 2px 0;font-weight:900;color:var(--accent)}
+aside{background:#ebe6d9;border-left:4px solid var(--accent);padding:17px 20px;margin:28px 0 0;font:14px/1.6 Arial,sans-serif;color:#454238}
+.editorial{background:#eae2cf;padding:28px;margin:34px 0}.editorial h2{font-size:36px;line-height:1.15;margin:6px 0 15px}.editorial p{margin:0 0 13px}
+.sources{font:14px/1.7 Arial,sans-serif;margin:30px 0}.sources h2{font:700 25px Georgia,serif}.sources li{margin:6px 0}
+footer{border-top:1px solid var(--ink);font:12px/1.5 Arial,sans-serif;color:var(--muted);padding:16px 0}
+@media(max-width:720px){body{background:var(--paper)}.sheet{margin:0;box-shadow:none;padding:0 18px 25px}.overline{font-size:9px}.mast h1{letter-spacing:-.07em}.mast p{font-size:9px}nav{flex-wrap:wrap;gap:13px}.twocards{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.metric:nth-child(2){border:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--rule)}.copy{columns:1;text-align:left}.leadhead{padding-top:29px}.leadhead p{font-size:18px}.editorial{padding:19px}}
+@media print{body{background:#fff}.sheet{box-shadow:none;margin:0;max-width:none}nav{display:none}article{break-before:page}}
+</style>
+</head>
+<body><div class="sheet">
+<div class="overline"><span>Edición especial · Economía e historia</span><span>24 de octubre de 2026</span></div>
+<header class="mast"><h1>El Contraste</h1><p>Dos relatos · Un país · La verdad necesita contexto</p></header>
+<nav><a href="#portada">Portada</a><a href="#actualidad">España reciente</a><a href="#historia">Franquismo</a><a href="#balance">Editorial</a><a href="#fuentes">Fuentes</a></nav>
+<main>
+<section id="portada" class="leadhead">
+<span class="eyebrow">Número especial / Economía española</span>
+<h2>La economía que cada uno quiere contar</h2>
+<p>Con estadísticas auténticas se pueden construir dos relatos triunfalistas y aparentemente irrebatibles. ¿Qué sucede cuando solo elegimos los datos que nos interesan?</p>
+<div class="notice">Ejercicio de comparación de relatos · No es un diario informativo real</div>
+</section>
+<div class="twocards">
+<div class="teaser"><span class="eyebrow" style="color:var(--other)">Actualidad · Columna de opinión ficticia</span><h3>El legado económico de Pedro Sánchez: hechos y cifras</h3><p>Afiliación récord, subida del salario mínimo, fuerte crecimiento y turismo de máximos. Así suena la España del éxito sin apenas contratiempos.</p><a href="#actualidad">Leer la columna ↓</a></div>
+<div class="teaser"><span class="eyebrow">Historia · Análisis de una columna ajena</span><h3>Franco y el milagro económico: el relato incompleto</h3><p>Industrialización, crecimiento de los sesenta y grandes cifras. Pero ¿dónde quedan la autarquía, el hambre de posguerra y la emigración?</p><a href="#historia">Leer el análisis ↓</a></div>
+</div>
+<div class="metrics">
+<div class="metric"><strong>8.º</strong><span>Ranking PIB mundial, 2007</span></div>
+<div class="metric"><strong>3,57 M</strong><span>Más afiliados desde 2018</span></div>
+<div class="metric"><strong>66%</strong><span>Subida nominal del SMI</span></div>
+<div class="metric"><strong>96,8 M</strong><span>Turistas en España, 2025</span></div>
+</div>
+<article id="actualidad">
+<div class="articlehead"><span class="eyebrow" style="color:var(--other)">Economía / Columna intencionadamente elogiosa</span>
+<h2>El legado económico de Pedro Sánchez: hechos y cifras</h2>
+<p class="deck">España ha sumado millones de afiliados, ha elevado el salario mínimo y registra cifras históricas de turismo y actividad. El relato de una gestión brillante… si solo se miran los indicadores que la favorecen.</p>
+<div class="byline">Columna de opinión ficticia · 24 octubre 2026</div></div>
+<div class="copy">
+<p class="first">Ante las profecías sobre la decadencia de España, basta con abrir los informes estadísticos para descubrir un país de récords. Después de una pandemia, una crisis energética y varias turbulencias internacionales, la economía española ha seguido creando empleo y actividad.</p>
+<h3>Más de 22 millones de afiliados</h3>
+<p>En septiembre de 2026 la afiliación rondaba los <strong>22,44 millones</strong>, unos <strong>3,57 millones más</strong> que en septiembre de 2018. Son cifras históricas que permiten hablar de una transformación profunda del mercado laboral.</p>
+<p>La tasa de desempleo también se sitúa muy por debajo de la que España registraba en 2018. Ningún balance que pretenda ser serio puede obviar una reducción de tal magnitud.</p>
+<h3>La revolución del salario mínimo</h3>
+<p>Cuando comenzó esta etapa, el salario mínimo interprofesional estaba fijado en <strong>735,90 euros mensuales en 14 pagas</strong>. En 2026 asciende a <strong>1.221 euros</strong>. La subida nominal del suelo salarial es cercana al <strong>66%</strong>.</p>
+<p>Las sucesivas subidas no impidieron que el país alcanzase máximos de afiliación, un dato que contradice las predicciones más pesimistas.</p>
+<h3>Un crecimiento que sorprende a Europa</h3>
+<p>El INE ha revisado el crecimiento real de 2024 hasta el <strong>3,7%</strong>, y sitúa el de 2025 en el <strong>2,6%</strong>. España creció más que varias grandes economías de su entorno en esos ejercicios.</p>
+<h3>Turismo en máximos</h3>
+<p>En 2025 España recibió <strong>96,8 millones de turistas internacionales</strong>. Su gasto alcanzó <strong>134.712 millones de euros</strong>. La actividad turística logró superar los máximos anteriores y contribuir al dinamismo económico de múltiples regiones.</p>
+<h3>Protección frente a la adversidad</h3>
+<p>La actualización de pensiones conforme a la inflación y la ampliación de la red social mediante el Ingreso Mínimo Vital sirven para presentar un país que crece y que también protege. El objetivo declarado es que perder el empleo o sufrir una caída de ingresos no suponga quedar fuera de la sociedad.</p>
+<h3>La foto de una etapa</h3>
+<p>Empleo, salarios mínimos, crecimiento, turismo: las cifras permiten construir la imagen de unos años de progreso. Los defensores de esta gestión pueden mostrarlas con orgullo. <strong>Pero ninguna fotografía, por impresionante que resulte, enseña lo que queda fuera del encuadre.</strong></p>
+</div>
+<aside><strong>Nota editorial:</strong> la columna selecciona deliberadamente indicadores positivos. No examina suficientemente inflación acumulada, acceso a la vivienda, deuda, déficit, productividad, calidad del empleo ni el efecto de la inmigración y el contexto internacional. Los resultados no pueden atribuirse íntegramente a un solo gobierno.</aside>
+</article>
+<article id="historia">
+<div class="articlehead"><span class="eyebrow">Historia / Contrapunto crítico</span>
+<h2>Franco y el milagro económico: las cifras y sus silencios</h2>
+<p class="deck">El crecimiento acelerado de los años sesenta fue real. Convertirlo en prueba de que toda la dictadura constituyó una edad de oro exige ignorar buena parte de la historia.</p>
+<div class="byline">Análisis original basado en el debate abierto por la columna de Roberto Centeno, 2018</div></div>
+<div class="copy">
+<p class="first">Durante los años sesenta, España experimentó un desarrollo económico extraordinario. La producción industrial aumentó, el turismo atrajo capital y la sociedad se urbanizó aceleradamente. Nada de eso necesita ser negado para entender las limitaciones de la economía franquista.</p>
+<h3>Un comienzo muy distinto</h3>
+<p>Los primeros veinte años de dictadura estuvieron marcados por la autarquía, el intervencionismo y la escasez. El desarrollo más intenso llegó después de cambiar el rumbo: el Plan de Estabilización de 1959 abrió un período de apertura exterior, inversión y crecimiento.</p>
+<h3>El empleo y la emigración</h3>
+<p>La expansión económica convivió con grandes flujos de trabajadores españoles que emigraron a Francia, Alemania, Suiza y otros países europeos. Para muchas familias, el bienestar se buscó fuera de España. La historia del empleo no puede contarse sin ellos.</p>
+<h3>Estar entre las diez economías</h3>
+<p>España alcanzó posiciones próximas a las diez mayores economías del planeta por PIB total en el tramo final del franquismo, dependiendo del año y la fuente. El dato dice algo sobre el tamaño de la economía, pero no basta para medir la calidad de vida de sus habitantes.</p>
+<h3>La comparación con 2007</h3>
+<p>En 2007 España figuraba como la <strong>octava economía mundial</strong> por PIB nominal. Era la España de José Luis Rodríguez Zapatero. Usar un puesto en el ranking como prueba definitiva del éxito de Franco obligaría, por coherencia, a aplicar el mismo razonamiento al gobierno de Zapatero.</p>
+<h3>La protección social también tiene historia</h3>
+<p>El régimen desarrolló instituciones de asistencia y reformas de la Seguridad Social. Pero el sistema de pensiones contaba con antecedentes anteriores a la dictadura, mientras que la universalización de la sanidad se consolidó después de la Transición.</p>
+<h3>Ni paraíso ni vacío histórico</h3>
+<p>El desarrollo de los sesenta fue un acontecimiento fundamental. Sin embargo, para juzgar una etapa hay que observar todo su recorrido, la distribución de la riqueza y el coste humano y político, no solo los mejores años de crecimiento.</p>
+</div>
+<aside><strong>Derechos de autor:</strong> este texto es un análisis original, no una reproducción del artículo de Roberto Centeno. <a target="_blank" rel="noopener" href="https://www.elconfidencial.com/economia/el-disparate-economico/2018-09-24/legado-economico-franco-hechos-cifras_1619919/">Leer la columna original de El Confidencial (2018) ↗</a></aside>
+</article>
+<section id="balance" class="editorial">
+<span class="eyebrow">La editorial</span><h2>El dato cierto no garantiza una historia completa</h2>
+<p>Un artículo favorable a Sánchez puede destacar afiliación y salario mínimo mientras pasa de puntillas por vivienda, inflación y deuda. Un artículo favorable a Franco puede exaltar el desarrollismo mientras minimiza la autarquía, la emigración y la falta de libertades.</p>
+<p>El ranking del PIB de un país no mide por sí mismo el bienestar de un trabajador. Para comparar etapas hay que examinar renta real por habitante, acceso a vivienda, salarios, protección social, distribución, productividad y libertades, además de los grandes totales nacionales.</p>
+<p><strong>Esta es la idea central de El Contraste: una selección de verdades también puede inducir a error.</strong></p>
+</section>
+<section class="sources" id="fuentes"><h2>Fuentes y lecturas</h2><ul>
+<li><a href="https://www.elconfidencial.com/economia/el-disparate-economico/2018-09-24/legado-economico-franco-hechos-cifras_1619919/">Roberto Centeno, El Confidencial (2018): artículo que motiva el contraste</a>.</li>
+<li><a href="https://ine.es/dyngs/Prensa/CNA2025.htm">INE: Contabilidad Nacional, revisión de septiembre de 2026</a>.</li>
+<li><a href="https://www.ine.es/dyngs/Prensa/EGATUR1225.htm">INE: gasto de turistas en 2025</a>.</li>
+<li><a href="https://www.ine.es/prodyser/espa_cifras/EEC_2026_PUBLICACION_COMPLETA.pdf">INE: España en cifras 2026 (turismo y economía)</a>.</li>
+<li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815">BOE: salario mínimo 2026</a>.</li>
+<li><a href="https://data.imf.org/datasets/WEO">FMI: World Economic Outlook, octubre 2026</a>.</li>
+<li><a href="https://cadenaser.com/programa/2015/04/15/la_ventana/1429115978_664687.html">Cadena SER: España como octava economía mundial en 2007</a>.</li>
+</ul><p><small>Datos e interpretaciones pueden revisarse con nuevas series estadísticas. El objetivo de esta publicación es ilustrar la importancia del contexto, no promocionar ninguna opción política.</small></p></section>
+</main>
+<footer><span>© 2026 El Contraste · Proyecto editorial experimental</span><span>No afiliado a El Confidencial ni a ningún partido político</span></footer>
+</div></body></html>
